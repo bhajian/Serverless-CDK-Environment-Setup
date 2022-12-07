@@ -41,5 +41,11 @@ $ cat ~/.ssh/id_rsa.pub
 Copy paste the public key into your github account -> settings -> ssh key
 
 
-
+# Create a CDK App
+- Create an empty folder in your workspace call it `hello-app`
+- `cd hello-app`
+- Run the cdk command to create a new cdk app
+```
+$ cdk init app --language typescript
+```
 
